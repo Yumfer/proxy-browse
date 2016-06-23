@@ -1,0 +1,41 @@
+{
+  "name": "proxy-browse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bin/server.js",
+  "scripts": {
+    "start": "node bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yumfer/proxy-browse.git"
+  },
+  "author": "Yumfer",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/Yumfer/proxy-browse/issues"
+  },
+  "homepage": "https://github.com/Yumfer/proxy-browse",
+  "engines": {
+    "node": "6.2.0",
+    "npm": "3.8.9"
+  },
+  "dependencies": {
+    "babel-core": "^6.10.4",
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-builtin-extend": "^1.1.0",
+    "babel-plugin-transform-regenerator": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.9.0",
+    "babel-runtime": "^6.9.2",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.0",
+    "babel-plugin-typecheck": "^3.9.0",
+    "eslint": "^2.13.1",
+    "eslint-plugin-import": "^1.9.2"
+  }
+}
